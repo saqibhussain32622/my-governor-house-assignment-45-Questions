@@ -1,3 +1,4 @@
+"use strict";
 // //Question# 33
 // let numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // numbers.forEach(number => {
@@ -12,8 +13,8 @@
 //     console.log(`${number}${suffix}`);
 // });
 //Question# 34
-var pizzas = ["pepperoni", "margherita", "hawaiian"];
-pizzas.forEach(function (pizza) {
-    console.log("I like ".concat(pizza, " pizza."));
+let pizzas = ["pepperoni", "margherita", "hawaiian"];
+pizzas.forEach(pizza => {
+    console.log(`I like ${pizza} pizza.`);
 });
 console.log("I really love pizza!");

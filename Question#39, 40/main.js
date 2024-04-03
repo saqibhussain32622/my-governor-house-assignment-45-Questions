@@ -1,3 +1,4 @@
+"use strict";
 //Question# 39
 // function city_country(city: string, country: string): string {
 //     return `${city}, ${country}`;
@@ -7,7 +8,7 @@
 // console.log(city_country("Paris", "France"));
 //Question# 40
 function make_album(artist, title, tracks) {
-    var album = { artist: artist, title: title };
+    let album = { artist, title };
     if (tracks) {
         album['tracks'] = tracks;
     }

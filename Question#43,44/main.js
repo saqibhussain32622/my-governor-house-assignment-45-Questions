@@ -1,3 +1,4 @@
+"use strict";
 //Question# 43
 // let magicians: string[] = ["Alice", "David", "Chris"];
 // function make_great(magicians: string[]): string[] {
@@ -13,12 +14,8 @@
 // console.log("Great magicians:");
 // (greatMagicians); // Shows modified names
 //Question# 44
-function make_sandwich() {
-    var items = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        items[_i] = arguments[_i];
-    }
-    console.log("Making a sandwich with: ".concat(items.join(', '), "."));
+function make_sandwich(...items) {
+    console.log(`Making a sandwich with: ${items.join(', ')}.`);
 }
 make_sandwich("ham", "cheese");
 make_sandwich("turkey", "lettuce", "tomato");

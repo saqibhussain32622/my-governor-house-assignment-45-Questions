@@ -1,0 +1,36 @@
+//Question# 82
+// // This function counts how many characters are in a string
+// function stringLength(str: string): number {
+//     return str.length; // Returns the number of characters in the string
+// }
+
+// // Example: Measuring the length of a name
+// console.log(stringLength("Ali")); 
+
+
+
+//Question# 83
+// // This function changes a string to uppercase and then to lowercase
+// function convertCase(str: string) {
+//     let upperStr = str.toUpperCase(); // Converts to uppercase
+//     let lowerStr = str.toLowerCase(); // Converts to lowercase
+
+//     console.log("Uppercase:", upperStr, "Lowercase:", lowerStr);
+// }
+
+// // Example: Changing the case of "Hello World"
+// convertCase("Hello World"); 
+
+
+
+
+//Question# 84
+// // This function swaps "JavaScript" with "TypeScript" in a sentence
+// function replaceJavaScriptWithTypeScript(sentence: string): string {
+//     return sentence.replace(/JavaScript/g, "TypeScript");
+//     // Uses a regular expression with the 'g' flag for a global replacement
+// }
+
+// // Example: Changing a programming language name in a sentence
+// console.log(replaceJavaScriptWithTypeScript("I love JavaScript and JavaScript is awesome!"));
+

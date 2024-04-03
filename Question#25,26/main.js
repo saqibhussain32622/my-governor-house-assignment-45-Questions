@@ -1,8 +1,10 @@
+"use strict";
 //Question 25
 var alien_color = "green";
 if (alien_color == "green") {
     console.log("You just earned 5 points!");
 }
+//Question# 26
 alien_color = "green";
 if (alien_color == "green") {
     console.log("You just earned 5 points for shooting the alien!");

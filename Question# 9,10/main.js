@@ -1,3 +1,4 @@
+"use strict";
 //let favoriteNumber = 4;
 //console.log("My favourite number is ".concat(favoriteNumber));
 //exercise 10

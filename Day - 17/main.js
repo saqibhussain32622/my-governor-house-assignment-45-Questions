@@ -1,3 +1,4 @@
+"use strict";
 //Question# 49
 // // Defines a function that accepts multiple hobbies as arguments
 // function logHobbies(...hobbies: string[]) {
@@ -23,6 +24,6 @@ function calculateArea(width, height) {
     return width * height;
 }
 // Refactored into an arrow function
-var calculateAreaArrow = function (width, height) { return width * height; };
+let calculateAreaArrow = (width, height) => width * height;
 // Example usage of the arrow function
 console.log(calculateAreaArrow(5, 7)); // Logs the area of the rectangle

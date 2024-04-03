@@ -1,3 +1,4 @@
+"use strict";
 //Question# 61
 // // Making a list (enum) for different types of vehicles
 // enum VehicleType {
@@ -6,12 +7,12 @@
 //     Motorcycle
 // }
 // Describing a circle using our Shape type
-var circle = {
+let circle = {
     kind: "circle",
     radius: 5
 };
 // Describing a rectangle using our Shape type
-var rectangle = {
+let rectangle = {
     kind: "rectangle",
     width: 10,
     height: 20

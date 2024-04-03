@@ -1,3 +1,4 @@
+"use strict";
 //Question# 58
 // // This program calculates the average of all scores given
 // function averageScore(...scores: number[]): number {
@@ -22,14 +23,14 @@
 // // We made a function (magic box) that adds 5 to any number.
 //Question# 60
 // This profile sets itself up and can share info about the user
-var userProfile = (function () {
+let userProfile = (function () {
     // The user's details are kept inside
-    var name = "John";
-    var age = 30;
+    let name = "John";
+    let age = 30;
     // This part shares the user's details
     return {
         displayInfo: function () {
-            console.log("Name: ".concat(name, ", Age: ").concat(age));
+            console.log(`Name: ${name}, Age: ${age}`);
         }
     };
 })();
