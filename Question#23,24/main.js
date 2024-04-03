@@ -1,3 +1,4 @@
+"use strict";
 // //Question# 23
 // let car = 'subaru';
 // console.log("Is car == 'subaru'? I predict True.");
@@ -40,7 +41,7 @@ console.log("Tests with 'and' and 'or':");
 console.log(true && false); // False
 console.log(true || false); // True
 // Test whether an item is in an array
-var fruits = ["apple", "banana", "cherry"];
+let fruits = ["apple", "banana", "cherry"];
 console.log("Is 'apple' in fruits?");
 console.log(fruits.includes("apple")); // True
 // Test whether an item is not in an array

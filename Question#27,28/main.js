@@ -1,3 +1,4 @@
+"use strict";
 //Question# 27
 // let alien_color = "green";
 // if (alien_color == "green") {
@@ -18,7 +19,7 @@
 //     console.log("You earned 15 points.");
 // }
 //Question# 28
-var alien_color = "green";
+let alien_color = "green";
 if (alien_color == "green") {
     console.log("You just earned 5 points!");
 }
@@ -36,7 +37,7 @@ if (alien_color == "green") {
 // } else if (alien_color == "red") {
 //     console.log("You earned 15 points.");
 // }
-var age = 25;
+let age = 25;
 if (age < 2) {
     console.log("The person is a baby.");
 }

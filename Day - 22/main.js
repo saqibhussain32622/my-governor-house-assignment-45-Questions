@@ -1,3 +1,4 @@
+"use strict";
 // //Question# 64
 // // This function mixes a text and a number into one text
 // function combineStringAndNumber(text: string, number: number): string {

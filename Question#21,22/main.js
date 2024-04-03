@@ -1,3 +1,4 @@
+"use strict";
 // let book: { title: string; author: string; yearPublished: number } = {
 //     title: "The Hobbit",
 //     author: "J.R.R. Tolkien",
@@ -6,6 +7,6 @@
 // console.log(`Book Info: ${book.title} by ${book.author}, published in ${book.yearPublished}`);
 //Question# 21 completed
 //Question# 22
-var friends = ["Ali", "Babar", "rizwan"];
+let friends = ["Ali", "Babar", "rizwan"];
 console.log(friends[3]); // Intentional error: Arrays are zero-indexed, so index 3 is out of bounds.
 friends[2] = "rizwan"; // Correcting the error by accessing a valid index.
